@@ -20,3 +20,13 @@ Github -> Jenkins -> Docker -> AWS EC2
 - CI/CD pipeline automation
 - Docker container lifecycle
 - Application deployment on cloud
+
+## CI/CD Flow
+1. DEveloper pushes the code to Github
+2. Jenkins automatically triggers the pipeline
+3. Docker image is built
+4. Container is deployed on AWS EC2
+5. Application is accessible via browser
+
+## Use Case
+This pipeline simulates real-world CI/CD used in production environments for controlled and repeatable deployments
