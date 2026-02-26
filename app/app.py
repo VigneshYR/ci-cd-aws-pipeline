@@ -5,6 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return "CI/CD pipeline is working"
+    print("V")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
