@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 #this copies requirements to current directory
-COPY app/requirements.txt .
+COPY requirements.txt .
 
 #run the application in requirements
 RUN pip install --no-cache-dir -r requirements.txt
